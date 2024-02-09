@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+root {
+    --bg-color-gray: #707070;
+}
+
+.toggle {
+    display: none;
+}
+
+header {
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+img.icon {
+    color: var(--bg-color-gray)
+}
+
