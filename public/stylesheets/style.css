@@ -1,7 +1,17 @@
+@font-face {
+    font-family: BMWTypeNext-Bold;
+    src: url(/public/img/fonts/BMWTypeNext-Bold.20210426144302.ttf);
+}
+@font-face {
+    font-family: BMWTypeNext-Light;
+    src: url(/public/img/fonts/BMWTypeNext-Light.20210426144302.ttf);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: BMWTypeNext-Light;
 }
 
 :root {
@@ -35,6 +45,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin: 21px 20px 20px 16px;
+    font-family: BMWTypeNext-Bold;
 }
 
 .box-contacts {
@@ -72,6 +83,7 @@ section.price {
     align-items: center;
     height: 45px;
     display: flex;
+    font-family: BMWTypeNext-Bold;
 }
 
 p.price {
@@ -106,10 +118,15 @@ p.card-title {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 img.card {
     margin: 0 42px
+}
+
+.name-car {
+    font-size: 25px;
 }
 
 .buttons {
@@ -153,12 +170,29 @@ img.social-media {
 
 footer {
     background-color: var(--bg-color-gray-one);
+    color: var(--bg-color-black-text);
+}
+
+.text-footer {
+    padding: 30px 16px 46px 16px;
+}
+
+p.footer {
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
 }
 
 .detail {
     border: solid 1px var(--bg-color-gray-two);
     max-width: 90%;
     margin: 30px 16px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 30px;
 }
 
 .logo-alpes {
@@ -169,4 +203,5 @@ footer {
 
 p.logo-alpes {
     margin-right: 14px;
+    font-size: 10px;
 }
