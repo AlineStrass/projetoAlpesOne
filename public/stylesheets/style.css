@@ -88,3 +88,85 @@ img.banner {
     max-width: 100%;
 }
 
+section.cards {
+    margin: 80px 16px;
+    color: var(--bg-color-gray-three);
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+p.card-title {
+    text-transform: uppercase;
+    color: var(--bg-color-black-text);
+    text-align: center;
+    height: 27px;
+    margin: 31px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.card {
+    margin: 0 42px
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 156px;
+    height: 35px;
+    color: var(--bg-color-white);
+    border: none;
+
+}
+
+.quote {
+    background-color: var(--bg-color-blue-one);
+}
+
+.call {
+    background-color: var(--bg-color-gray-three);
+}
+
+div.social-media {
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+a.social-media
+img.social-media {
+    text-decoration: none;
+    width: 24px;
+    padding: 0 10px;
+    color: var(--bg-color-black-text);
+    
+}
+
+footer {
+    background-color: var(--bg-color-gray-one);
+}
+
+.detail {
+    border: solid 1px var(--bg-color-gray-two);
+    max-width: 90%;
+    margin: 30px 16px;
+}
+
+.logo-alpes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.logo-alpes {
+    margin-right: 14px;
+}
