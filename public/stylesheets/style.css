@@ -5,7 +5,16 @@ body {
 }
 
 root {
-    --bg-color-gray: #707070;
+    --bg-color-white: #ffffff;
+    --bg-color-gray-one: #E6E6E6;
+    --bg-color-gray-two: #BBBBBB;
+    --bg-color-gray-three: #666666;
+    --bg-color-gray-four: #4D4D4D;
+    --bg-color-black-text: #262626;
+    --bg-color-black: #000000;
+    --bg-color-green: #25D366;
+    --bg-color-blue-one: #1C69D4;
+    --bg-color-blue-two-hover: #0653B6;
 }
 
 .toggle {
@@ -13,13 +22,41 @@ root {
 }
 
 header {
-    background-color: #fff;
-    color: #000000;
+    background-color: #ffffff;
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.box-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 21px 0px 20px 16px;
+}
+
+.box-contacts {
+    display: flex;
+    align-items: center;
+    height: 19px;
+    width: 129px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
 
 img.icon {
-    color: var(--bg-color-gray)
+    color: var(--bg-color-gray-three);
+    width: 19px;
 }
 
+.logo {
+    height: 34.5px;
+
+}
