@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-root {
+:root {
     --bg-color-white: #ffffff;
     --bg-color-gray-one: #E6E6E6;
     --bg-color-gray-two: #BBBBBB;
@@ -24,9 +24,9 @@ root {
 header {
     background-color: #ffffff;
     text-align: center;
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 60px;
 }
 
@@ -34,29 +34,57 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 21px 0px 20px 16px;
+    margin: 21px 20px 20px 16px;
 }
 
 .box-contacts {
     display: flex;
     align-items: center;
     height: 19px;
-    width: 129px;
 }
 
 .phone {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+    margin-right: 3px;
+    color: var(--bg-color-gray-three); 
 }
 
 img.icon {
     color: var(--bg-color-gray-three);
     width: 19px;
+    margin-right: 10px;
 }
 
 .logo {
-    height: 34.5px;
-
+    margin: 13px 16px 12.5px 13px;
 }
+    
+img.logomarca {
+    height: 34.5px;   
+}
+
+section.price {
+    background-color: var(--bg-color-blue-one);
+    color: var(--bg-color-white);
+    text-align: center;
+    align-items: center;
+    height: 45px;
+    display: flex;
+}
+
+p.price {
+    margin: auto;
+    padding: 0;
+}
+
+a.price {
+    color: var(--bg-color-white);
+    text-decoration: none;
+}
+
+img.banner {
+    max-width: 100%;
+}
+
