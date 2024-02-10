@@ -12,7 +12,7 @@ Reproduzir a página inicial de um site em resolução para mobile e desktop, co
 
 Através do terminal clone o diretório usando a chave SSH através seguinte comando:
 ```bash
-git clone git@github.com:AlineStrass/projetoWecode.git
+git clone git@github.com:AlineStrass/projetoAlpesOne.git
 
 ```
 
